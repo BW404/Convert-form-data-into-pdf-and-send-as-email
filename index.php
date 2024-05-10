@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
 </head>
+
 <body>
-    
+
+    <div class="container mt-5">
+        <form action="makepdf.php" method="post" class="offset-md-3 col-md-6">
+            <h1>Paradise and Paradise Care</h1>
+
+            <div class="mb-2"><input type="text" class="form-control" placeholder="Enter your name" name="Name"
+                    required></div>
+            <div class="mb-2"><input type="email" class="form-control" placeholder="Enter your email" name="Email"
+                    required></div>
+            <div class="mb-2"><input type="tel" class="form-control" placeholder="Enter your phone number" name="Phone"
+                    required></div>
+            <div class="mb-2"><textarea class="form-control" placeholder="Enter your message" name="Message"
+                    required></textarea></div>
+            <button class="btn btn-primary mt-3" type="submit">Submit</button>
+
+
+
+
+
+        </form>
+
+
+
+
+    </div>
+
+
 </body>
+
 </html>
